@@ -1,0 +1,30 @@
+/* Portfolio.css */
+
+/* Default styles for larger screens */
+.download-btn {
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  width: auto; /* Default width */
+  height: 48px; /* Fixed height */
+  min-width: 200px; /* Ensures the button is wide enough */
+  text-align: center; /* Centers text */
+}
+
+/* Mobile screen styles */
+@media (max-width: 768px) {
+  .download-btn {
+    padding: 12px 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    width: 50%; /* Make the button take up the full width on mobile */
+    height: 45px; /* Slightly reduced height on mobile */
+    min-width: 0; /* Removes the min-width to allow stretching */
+  }
+}

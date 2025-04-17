@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Card } from "react-bootstrap";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import "./Portfolio.css"; // Import the CSS file for styles
 
 const Portfolio = () => {
   return (
@@ -61,9 +62,10 @@ const Portfolio = () => {
             >
               View Projects
             </a>
+
             <a
               href="/Aman-Tinmekar-Resume.pdf"
-              className="btn btn-success px-4 py-2 fw-bold"
+              className="download-btn"
               download
               target="_blank"
               rel="noopener noreferrer"
@@ -80,9 +82,9 @@ const Portfolio = () => {
           <h2 className="fw-bold mb-4 text-primary">About Me</h2>
           <p className="w-75 mx-auto fs-5">
             I’m a passionate Full Stack Developer with a focus on modern web
-            development. I have experience with the MERN stack and PHP, and I am
-            always looking to learn and grow. Currently exploring DevOps and
-            cloud deployment. Let's create something amazing together!
+            development. I have experience with the MERN stack , and I am always
+            looking to learn and grow. Currently exploring DevOps and cloud
+            deployment. Let's create something amazing together!
           </p>
         </div>
       </section>
@@ -97,19 +99,27 @@ const Portfolio = () => {
 
           <div className="row text-center">
             <div className="col-md-3">
-              <h5 className="text-light">Frontend</h5>
+              <h5 className="text-center fw-bold mb-4 text-primary mt-4">
+                Frontend
+              </h5>
               <p>React.js, HTML, CSS, JS, Redux, Tailwind, Bootstrap</p>
             </div>
             <div className="col-md-3">
-              <h5 className="text-light">Backend</h5>
+              <h5 className="text-center fw-bold mb-4 text-primary mt-4">
+                Backend
+              </h5>
               <p>Node.js, Express.js, REST APIs, Laravel (Basics)</p>
             </div>
             <div className="col-md-3">
-              <h5 className="text-light">Databases</h5>
+              <h5 className="text-center fw-bold mb-4 text-primary mt-4">
+                Databases
+              </h5>
               <p>MongoDB, MySQL, SQLite</p>
             </div>
             <div className="col-md-3">
-              <h5 className="text-light">Tools</h5>
+              <h5 className="text-center fw-bold mb-4 text-primary mt-4">
+                Tools
+              </h5>
               <p>Git, GitHub, Docker (Basics), AWS, Netlify, Render</p>
             </div>
           </div>
