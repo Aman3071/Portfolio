@@ -229,7 +229,7 @@ const Portfolio = () => {
           <p className="fs-5">
             <FaLinkedin />{" "}
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/aman-tinmekar-908b5622a/"
               className="text-white text-decoration-underline"
               target="_blank"
               rel="noopener noreferrer"
@@ -240,7 +240,7 @@ const Portfolio = () => {
           <p className="fs-5">
             <FaGithub />{" "}
             <a
-              href="https://github.com/your-github"
+              href="https://github.com/Aman3071"
               className="text-white text-decoration-underline"
               target="_blank"
               rel="noopener noreferrer"
